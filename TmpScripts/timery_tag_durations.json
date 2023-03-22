@@ -1,0 +1,600 @@
+{
+	"Out": [
+		{
+			"Tag": "AJ_e_10m",
+			"Duration": 0
+		},
+		{
+			"Tag": "AJST_content_medium_movie",
+			"Duration": 0
+		},
+		{
+			"Tag": "AJST_content_medium_reading_articles",
+			"Duration": 6265
+		},
+		{
+			"Tag": "AJST_content_medium_reading_books",
+			"Duration": 79885
+		},
+		{
+			"Tag": "AJST_content_medium_reading_manga",
+			"Duration": 60834
+		},
+		{
+			"Tag": "AJST_content_medium_tv",
+			"Duration": 141006
+		},
+		{
+			"Tag": "AJST_content_quality_high",
+			"Duration": 0
+		},
+		{
+			"Tag": "AJST_content_quality_low",
+			"Duration": 11473
+		},
+		{
+			"Tag": "AJST_content_type_art",
+			"Duration": 0
+		},
+		{
+			"Tag": "AJST_content_type_fun_art",
+			"Duration": 14481
+		},
+		{
+			"Tag": "AJST_content_type_learning",
+			"Duration": 0
+		},
+		{
+			"Tag": "AJST_content_type_mindless_fun",
+			"Duration": 53553
+		},
+		{
+			"Tag": "APC_content_dinner_and_tv_or_movie",
+			"Duration": 40878
+		},
+		{
+			"Tag": "APG_chores_cleaning",
+			"Duration": 41125
+		},
+		{
+			"Tag": "APU_coding",
+			"Duration": 899
+		},
+		{
+			"Tag": "arguing",
+			"Duration": 19565
+		},
+		{
+			"Tag": "bed_late",
+			"Duration": 129983
+		},
+		{
+			"Tag": "bed_late_while_doing_this",
+			"Duration": 23880
+		},
+		{
+			"Tag": "bed_on_time",
+			"Duration": 222822
+		},
+		{
+			"Tag": "bradley",
+			"Duration": 117879
+		},
+		{
+			"Tag": "chores",
+			"Duration": 126852
+		},
+		{
+			"Tag": "drinking",
+			"Duration": 3600
+		},
+		{
+			"Tag": "e15m",
+			"Duration": 11719
+		},
+		{
+			"Tag": "e1h",
+			"Duration": 3768
+		},
+		{
+			"Tag": "e30m",
+			"Duration": 10771
+		},
+		{
+			"Tag": "e90m",
+			"Duration": 6705
+		},
+		{
+			"Tag": "efficiency_high",
+			"Duration": 0
+		},
+		{
+			"Tag": "efficiency_low",
+			"Duration": 24195
+		},
+		{
+			"Tag": "efficiency_medium",
+			"Duration": 1260
+		},
+		{
+			"Tag": "exercise_walking",
+			"Duration": 27250
+		},
+		{
+			"Tag": "feeling_sick",
+			"Duration": 29832
+		},
+		{
+			"Tag": "finance",
+			"Duration": 24340
+		},
+		{
+			"Tag": "focus-time",
+			"Duration": 0
+		},
+		{
+			"Tag": "focus-time_block",
+			"Duration": 0
+		},
+		{
+			"Tag": "food_cooking",
+			"Duration": 31784
+		},
+		{
+			"Tag": "food_drinking",
+			"Duration": 6443
+		},
+		{
+			"Tag": "food_eating_dinner",
+			"Duration": 0
+		},
+		{
+			"Tag": "food_eating_snacks",
+			"Duration": 0
+		},
+		{
+			"Tag": "food_for_drinks",
+			"Duration": 2806
+		},
+		{
+			"Tag": "food_groceries",
+			"Duration": 12355
+		},
+		{
+			"Tag": "food_OLD_dinner",
+			"Duration": 61538
+		},
+		{
+			"Tag": "food_OLD_eating",
+			"Duration": 100227
+		},
+		{
+			"Tag": "from_plan",
+			"Duration": 0
+		},
+		{
+			"Tag": "fun",
+			"Duration": 514318
+		},
+		{
+			"Tag": "fun_planning",
+			"Duration": 3867
+		},
+		{
+			"Tag": "getting_ready",
+			"Duration": 24391
+		},
+		{
+			"Tag": "got_out_of_bed",
+			"Duration": 49301
+		},
+		{
+			"Tag": "how_to_categorize",
+			"Duration": 497156
+		},
+		{
+			"Tag": "hp",
+			"Duration": 277212
+		},
+		{
+			"Tag": "hp_fixing",
+			"Duration": 844
+		},
+		{
+			"Tag": "intoxicated",
+			"Duration": 5400
+		},
+		{
+			"Tag": "learning",
+			"Duration": 8214
+		},
+		{
+			"Tag": "made_choice",
+			"Duration": 10473
+		},
+		{
+			"Tag": "mobile",
+			"Duration": 74066
+		},
+		{
+			"Tag": "no_timebox",
+			"Duration": 63908
+		},
+		{
+			"Tag": "not_enough",
+			"Duration": 21600
+		},
+		{
+			"Tag": "not_great",
+			"Duration": 6262
+		},
+		{
+			"Tag": "not_useful",
+			"Duration": 3399
+		},
+		{
+			"Tag": "obsessive_reviewing_before_buying",
+			"Duration": 3895
+		},
+		{
+			"Tag": "off_todo_list",
+			"Duration": 74794
+		},
+		{
+			"Tag": "on_todo_list",
+			"Duration": 1560
+		},
+		{
+			"Tag": "on_toilet",
+			"Duration": 20648
+		},
+		{
+			"Tag": "optimization",
+			"Duration": 27173
+		},
+		{
+			"Tag": "optimization_excessive",
+			"Duration": 4397
+		},
+		{
+			"Tag": "organization",
+			"Duration": 67474
+		},
+		{
+			"Tag": "out_of_it",
+			"Duration": 6104
+		},
+		{
+			"Tag": "outside",
+			"Duration": 118397
+		},
+		{
+			"Tag": "over_timebox",
+			"Duration": 13549
+		},
+		{
+			"Tag": "over_timebox_1",
+			"Duration": 6705
+		},
+		{
+			"Tag": "overslept",
+			"Duration": 167035
+		},
+		{
+			"Tag": "overslept_1",
+			"Duration": 57337
+		},
+		{
+			"Tag": "overslept_2",
+			"Duration": 15720
+		},
+		{
+			"Tag": "overslept_4",
+			"Duration": 36890
+		},
+		{
+			"Tag": "parasomnia",
+			"Duration": 3600
+		},
+		{
+			"Tag": "party",
+			"Duration": 66390
+		},
+		{
+			"Tag": "perfectionism",
+			"Duration": 15734
+		},
+		{
+			"Tag": "personal_tools_improvement",
+			"Duration": 29213
+		},
+		{
+			"Tag": "pills",
+			"Duration": 2162
+		},
+		{
+			"Tag": "plan_following",
+			"Duration": 0
+		},
+		{
+			"Tag": "plan_for_day",
+			"Duration": 2865
+		},
+		{
+			"Tag": "plan_ignored",
+			"Duration": 3650
+		},
+		{
+			"Tag": "plan_none",
+			"Duration": 61018
+		},
+		{
+			"Tag": "plan_way_behind",
+			"Duration": 0
+		},
+		{
+			"Tag": "planning",
+			"Duration": 29242
+		},
+		{
+			"Tag": "pomodoro-break",
+			"Duration": 0
+		},
+		{
+			"Tag": "possible_procrastination",
+			"Duration": 16224
+		},
+		{
+			"Tag": "procrastination",
+			"Duration": 38385
+		},
+		{
+			"Tag": "procrastination_optimization",
+			"Duration": 10778
+		},
+		{
+			"Tag": "productive_high",
+			"Duration": 48319
+		},
+		{
+			"Tag": "productive_low",
+			"Duration": 30679
+		},
+		{
+			"Tag": "productive_medium",
+			"Duration": 30588
+		},
+		{
+			"Tag": "productive_not",
+			"Duration": 13128
+		},
+		{
+			"Tag": "random",
+			"Duration": 9339
+		},
+		{
+			"Tag": "relaxing",
+			"Duration": 53466
+		},
+		{
+			"Tag": "research",
+			"Duration": 48
+		},
+		{
+			"Tag": "retroactively_tracked",
+			"Duration": 1200
+		},
+		{
+			"Tag": "routine_evening",
+			"Duration": 2700
+		},
+		{
+			"Tag": "routine_morning",
+			"Duration": 42093
+		},
+		{
+			"Tag": "shopping",
+			"Duration": 10656
+		},
+		{
+			"Tag": "shortcuts",
+			"Duration": 8100
+		},
+		{
+			"Tag": "should_outsource",
+			"Duration": 4771
+		},
+		{
+			"Tag": "shower_shave",
+			"Duration": 8872
+		},
+		{
+			"Tag": "sick",
+			"Duration": 2280
+		},
+		{
+			"Tag": "sleep",
+			"Duration": 496549
+		},
+		{
+			"Tag": "sleep_enough",
+			"Duration": 74387
+		},
+		{
+			"Tag": "sleep_not_enough",
+			"Duration": 0
+		},
+		{
+			"Tag": "sleep_problem",
+			"Duration": 114753
+		},
+		{
+			"Tag": "slept_wrong_place",
+			"Duration": 170040
+		},
+		{
+			"Tag": "snoozing",
+			"Duration": 22296
+		},
+		{
+			"Tag": "social",
+			"Duration": 192448
+		},
+		{
+			"Tag": "still_in_bedroom_dumb",
+			"Duration": 88212
+		},
+		{
+			"Tag": "stressful",
+			"Duration": 2160
+		},
+		{
+			"Tag": "strides",
+			"Duration": 2692
+		},
+		{
+			"Tag": "stuff_for_friends",
+			"Duration": 3563
+		},
+		{
+			"Tag": "task",
+			"Duration": 24485
+		},
+		{
+			"Tag": "texting",
+			"Duration": 8961
+		},
+		{
+			"Tag": "therapy",
+			"Duration": 31315
+		},
+		{
+			"Tag": "time_excessive",
+			"Duration": 11338
+		},
+		{
+			"Tag": "time_excessive_extremely",
+			"Duration": 15720
+		},
+		{
+			"Tag": "time_excessive_rabbit_hole",
+			"Duration": 56229
+		},
+		{
+			"Tag": "time_somewhat-excessive",
+			"Duration": 0
+		},
+		{
+			"Tag": "timebox",
+			"Duration": 22083
+		},
+		{
+			"Tag": "todo_organization",
+			"Duration": 53985
+		},
+		{
+			"Tag": "too_long",
+			"Duration": 104776
+		},
+		{
+			"Tag": "too_long_0",
+			"Duration": 0
+		},
+		{
+			"Tag": "too_long_1",
+			"Duration": 33578
+		},
+		{
+			"Tag": "too_long_2",
+			"Duration": 60100
+		},
+		{
+			"Tag": "too_long_3",
+			"Duration": 43669
+		},
+		{
+			"Tag": "too_long_4",
+			"Duration": 16022
+		},
+		{
+			"Tag": "too_long_high",
+			"Duration": 10420
+		},
+		{
+			"Tag": "too_long_separated_bad",
+			"Duration": 6023
+		},
+		{
+			"Tag": "too_long_separated_good",
+			"Duration": 4800
+		},
+		{
+			"Tag": "tracking",
+			"Duration": 13446
+		},
+		{
+			"Tag": "tracking_time",
+			"Duration": 4121
+		},
+		{
+			"Tag": "tracking_time_organization",
+			"Duration": 15062
+		},
+		{
+			"Tag": "tv_good",
+			"Duration": 7680
+		},
+		{
+			"Tag": "useful",
+			"Duration": 49460
+		},
+		{
+			"Tag": "useless",
+			"Duration": 36958
+		},
+		{
+			"Tag": "value_2",
+			"Duration": 3185
+		},
+		{
+			"Tag": "wasted_time",
+			"Duration": 35833
+		},
+		{
+			"Tag": "with_ollie",
+			"Duration": 249460
+		},
+		{
+			"Tag": "woke_up_late",
+			"Duration": 21600
+		},
+		{
+			"Tag": "woke_up_on_time",
+			"Duration": 57474
+		},
+		{
+			"Tag": "y_woke_up",
+			"Duration": 38852
+		},
+		{
+			"Tag": "z_anger_on_phone",
+			"Duration": 9033
+		},
+		{
+			"Tag": "z_fighting_1",
+			"Duration": 13376
+		},
+		{
+			"Tag": "z_forgot_to_stop",
+			"Duration": 68297
+		},
+		{
+			"Tag": "z_half_asleep",
+			"Duration": 23952
+		},
+		{
+			"Tag": "z_writing_online_advice",
+			"Duration": 9339
+		}
+	]
+}
