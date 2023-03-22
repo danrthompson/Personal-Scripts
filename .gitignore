@@ -6,6 +6,10 @@ todoist/todoist_schedule_tasks/token.json
 .vscode
 *.code-workspace
 
+# node
+node_modules
+.yarn
+
 # random
 .history
 .DS_Store

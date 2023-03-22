@@ -1,0 +1,7 @@
+{
+  "name": "pavloktest",
+  "packageManager": "yarn@3.2.1",
+  "dependencies": {
+    "pavlok": "^0.2.2"
+  }
+}
