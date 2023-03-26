@@ -1,8 +1,10 @@
+import os
+
 from multiprocessing import AuthenticationError
 import requests
 
-username = "danielrthompsonjr"
-password = "HKT1eyx-jtc_hnq4aga"
+username = os.getenv("EXIST_USERNAME")
+password = os.getenv("EXIST_PASSWORD")
 
 url = "https://exist.io/api/1/auth/simple-token/"
 

@@ -35,3 +35,19 @@ ax.set_xticks(range(len(df2)))
 ax.set_xticklabels(df2["Chapter Name"])
 ax.legend(["Time Completed", "Time Predicted TPW"])
 plt.show()
+
+
+# %%
+# scatter plot
+
+# %%
+import matplotlib.pyplot as plt
+
+plt.scatter(df["Chapter Name"], df["Time Completed"], label="Time Completed")
+plt.scatter(df["Chapter Name"], df["Goal Time"], label="Goal Time")
+plt.scatter(df["Chapter Name"], df["Time Predicted TPW"], label="Time Predicted TPW")
+plt.legend()
+plt.xlabel("Chapter Name")
+plt.ylabel("Time (minutes)")
+plt.title("Chapter Progress")
+plt.show()
