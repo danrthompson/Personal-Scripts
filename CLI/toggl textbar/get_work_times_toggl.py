@@ -27,18 +27,27 @@ import pytz
 
 # mindless 187986408
 
+TOOLING_PROJECT_IDS = [186181587]
+WORK_PROJECT_IDS = [186181594, 188079427, 187316243, 188326563, 189390036, 191499108]
+
 CONFIG_DICT = {
     "tooling": {
-        "project_ids": [186181587],
+        "project_ids": TOOLING_PROJECT_IDS,
         "today": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/data/opt_tooling_time_today.txt",
         "last_week": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/data/opt_tooling_time_last_week.txt",
         "ewa": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/data/opt_ewa.txt",
     },
     "work": {
-        "project_ids": [186181594, 188079427, 187316243, 188326563, 189390036],
+        "project_ids": WORK_PROJECT_IDS,
         "today": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/data/total_work_time_today.txt",
         "last_week": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/data/total_work_time_last_week.txt",
         "ewa": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/data/work_ewa.txt",
+    },
+    "all": {
+        "project_ids": TOOLING_PROJECT_IDS + WORK_PROJECT_IDS,
+        "today": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/data/total_time_today.txt",
+        "last_week": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/data/total_time_last_week.txt",
+        "ewa": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/data/total_ewa.txt",
     },
 }
 
@@ -135,13 +144,21 @@ def echo_time_formatted(total_time):
     click.echo(f"{total_time // 60}:{total_time % 60:02d}")
 
 
-def print_ewa(ewa_per_day: list[int], ewa_index_from_end: Optional[int] = None):
+def print_ewa(
+    ewa_per_day: list[int],
+    ewa_index_from_end: Optional[int] = None,
+    show_week_time: bool = False,
+):
     if ewa_index_from_end:
         ewa = ewa_per_day[-1 * ewa_index_from_end]
+        if show_week_time:
+            ewa *= 7
         click.echo(f"{ewa // 60}:{ewa % 60:02d}")
         return
 
     for ewa in ewa_per_day:
+        if show_week_time:
+            ewa *= 7
         click.echo(f"{ewa // 60}:{ewa % 60:02d}")
 
 
@@ -293,9 +310,16 @@ def fetch_ewa(
 @cli.command()
 @click.option("--project-type", type=click.Choice(PROJECT_TYPES), default="work")
 @click.option("--ewa-index-from-end", type=int, default=None)
-def echo_ewa(project_type: str, ewa_index_from_end) -> None:
+@click.option(
+    "--show-week-time",
+    is_flag=True,
+    show_default=True,
+    default=False,
+    help="Show ewa time converted to per-week time",
+)
+def echo_ewa(project_type: str, ewa_index_from_end, show_week_time) -> None:
     ewa: list[int] = get_total_time_from_ewa(project_type, "ewa")
-    print_ewa(ewa, ewa_index_from_end)
+    print_ewa(ewa, ewa_index_from_end, show_week_time)
 
 
 @cli.command()
@@ -318,8 +342,17 @@ def fetch_time(time, project_type, echo):
 @cli.command()
 @click.option("--time", type=click.Choice(TIME_OPTIONS), required=True)
 @click.option("--project-type", type=click.Choice(PROJECT_TYPES), required=True)
-def get_echo_time(time, project_type):
+@click.option(
+    "--show-week-time",
+    is_flag=True,
+    show_default=True,
+    default=False,
+    help="Show ewa time converted to per-week time",
+)
+def get_echo_time(time, project_type, show_week_time):
     total_time = get_total_time_from_file(project_type, time)
+    if show_week_time:
+        total_time *= 7
     echo_time_formatted(total_time)
 
 
@@ -327,9 +360,7 @@ def get_echo_time(time, project_type):
 @click.option("--time", type=click.Choice(TIME_OPTIONS), required=True)
 @click.option("--project-type", type=click.Choice(PROJECT_TYPES), required=True)
 def get_ratio(time, project_type):
-    total_time = 0
-    for this_project_type in PROJECT_TYPES:
-        total_time += get_total_time_from_file(this_project_type, time)
+    total_time = get_total_time_from_file("all", time)
 
     project_time = get_total_time_from_file(project_type, time)
 
