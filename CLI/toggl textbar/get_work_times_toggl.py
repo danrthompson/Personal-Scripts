@@ -30,17 +30,18 @@ import pytz
 CONFIG_DICT = {
     "tooling": {
         "project_ids": [186181587],
-        "today": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/opt_tooling_time_today.txt",
-        "last_week": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/opt_tooling_time_last_week.txt",
-        "ewa": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/opt_ewa.txt",
+        "today": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/data/opt_tooling_time_today.txt",
+        "last_week": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/data/opt_tooling_time_last_week.txt",
+        "ewa": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/data/opt_ewa.txt",
     },
     "work": {
         "project_ids": [186181594, 188079427, 187316243, 188326563, 189390036],
-        "today": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/total_work_time_today.txt",
-        "last_week": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/total_work_time_last_week.txt",
-        "ewa": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/work_ewa.txt",
+        "today": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/data/total_work_time_today.txt",
+        "last_week": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/data/total_work_time_last_week.txt",
+        "ewa": "/Users/danthompson/Code/Scripts/CLI/toggl textbar/data/work_ewa.txt",
     },
 }
+
 
 PROJECT_TYPES = list(CONFIG_DICT.keys())
 TIME_OPTIONS = ["today", "last_week"]
@@ -75,7 +76,6 @@ def get_current_time_entry(project_ids):
 
     response = requests.get(url, headers=headers, auth=auth)
     response_json = response.json()
-
     if (
         not response_json
         or "start" not in response_json

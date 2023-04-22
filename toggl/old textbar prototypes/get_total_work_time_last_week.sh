@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-total_mins_last_week=$(cat ~/Code/Scripts/total_work_time_last_week.txt)
+total_mins_last_week=$(cat /Users/danthompson/Code/Scripts/CLI/toggl textbar/data/total_work_time_last_week.txt)
 
 hours_last_week=$((total_mins_last_week/60))
 mod_mins_last_week=$((total_mins_last_week%60))

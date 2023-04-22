@@ -1,9 +1,5 @@
 # my files
-CLI/toggl textbar/work_ewa.txt
-CLI/toggl textbar/total_work_time_today.txt
-CLI/toggl textbar/total_work_time_last_week.txt
-CLI/toggl textbar/opt_tooling_time_today.txt
-CLI/toggl textbar/opt_tooling_time_last_week.txt
+CLI/toggl textbar/data/
 
 # security
 todoist/todoist_schedule_tasks/credentials.json

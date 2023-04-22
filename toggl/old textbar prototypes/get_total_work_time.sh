@@ -43,7 +43,7 @@ mod_mins_today=$((total_mins_today%60))
 # pad with leading zero if needed
 [[ $mod_mins_today -lt 10 ]] && mod_mins_today="0$mod_mins_today"
 
-echo $total_mins_today > ~/Code/Scripts/total_work_time_today.txt
-echo $total_mins_last_week > ~/Code/Scripts/total_work_time_last_week.txt
+echo $total_mins_today > '/Users/danthompson/Code/Scripts/CLI/toggl textbar/data/total_work_time_today.txt'
+echo $total_mins_last_week > '/Users/danthompson/Code/Scripts/CLI/toggl textbar/data/total_work_time_last_week.txt'
 
 echo "$hours_today:$mod_mins_today"
