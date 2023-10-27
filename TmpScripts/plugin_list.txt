@@ -1,0 +1,92 @@
+# Obsidian plugins to consider
+## GPT
+khoj
+smart connections
+Companion
+copilot
+gpt-3 notes
+ava
+Auto classifier
+chatgpt md
+ai commander
+gene
+gpt assistant
+ai assistant
+semantic search
+simple note review
+text generator
+personal assistant
+ai mentor
+gpt litequirer
+text2anki-openai
+## Links
+Crossbow
+Links
+Smart rename
+Link range
+pending notes
+## Text manipulation
+obsidian42 - text transporter
+Quick snippets and navigation
+Templater
+File diff
+## Spaced repetition
+aosr
+incremental writing
+spaced repetition
+text2anki-openai
+### Review type
+Inbox
+reminder
+repeat
+review
+## Tracking/Data viz
+tracker
+mood tracker
+## Motivation
+Rewarder
+## Diagrams
+Argument map with argdown
+Enhancing mindmap
+mindmap
+graphviz
+plantuml
+mermaid tools
+mindmap nextgen
+## Code in notes
+shell command
+Code emitter
+meld build
+custom js
+execute code
+Jupyter
+### Scripting
+Actions URI
+cron
+script launcher
+## Highlighting
+Dynamic highlihgts
+highlights
+colored text
+## Random
+### Time tracking
+super simple time
+### Latex
+Quick latex for obsidian
+### Tasks
+Custom state task list
+### Random USEFUL
+Open plugin settings
+### Integrations
+#### Todoist
+ultimate todoist sync
+### Folders/Files/Organization
+Rapid notes
+Bellboy
+### Dataview/Esque
+Aggregator
+### Scheduling/Planning
+Dynamic timetable
+prioritize
+### Nav
+Open files with commands

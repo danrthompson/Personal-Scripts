@@ -1,0 +1,70 @@
+1,Khoj,By Debanjum Singh Solanky,3383,"Natural, Incremental Search for your Second Brain.",https://github.com/debanjum/khoj,498,30,663,1
+2,Smart Connections,By Brian Petro,28730,"Chat with your notes & find links to similar content using artificial intelligence like OpenAI Embeddings, GPT-3.5 & GPT-4.",https://github.com/brianpetro/obsidian-smart-connections,762,30,166,0
+3,Companion,By rizerphe,1473,"Autocomplete with AI, including ChatGPT, through a copilot-like interface.",https://github.com/rizerphe/obsidian-companion,73,30,91,2
+4,Copilot,By Logan Yang,6518,A ChatGPT Copilot in Obsidian.,https://github.com/logancyang/obsidian-copilot,145,30,71,1
+5,GPT-3 Notes,By micahke,13720,Generate notes on any subject using OpenAI's GPT-3 language model.,https://github.com/micahke/obsidian-gpt3-notes,145,30,183,3
+6,Ava,By louis030195,23942,Quickly format your notes with ChatGPT.,https://github.com/louis030195/obsidian-ava,566,30,321,1
+7,Auto Classifier,By Hyeonseo Nam,1290,"Automatically classify tag from your notes using ChatGPT API. It analyze your note (It can be title, frontmatter, content or selected area) and automatically insert tag where you set.",https://github.com/HyeonseoNam/auto-classifier,34,30,90,0
+8,ChatGPT MD,By Bram Adams,16624,A (nearly) seamless integration of ChatGPT into Obsidian.,https://github.com/bramses/chatgpt-md,627,30,98,1
+9,AI Commander,By Simon Yang,2554,"Generate audio transcripts, images, and text in context of PDF attachments or web search results using OpenAI and Bing API.",https://github.com/yzh503/obsidian-aicommander-plugin,51,30,95,2
+10,Gene 🧬,By Matiss Jurevics,1033,Generate text using the OpenAI API.,https://github.com/MatissJurevics/Gene-AI,18,30,103,20
+11,GPT Assistant,By M7mdisk,827,Use a GPT-3 based model on your notes and get personalized answers from your knowledge base.,https://github.com/M7mdisk/obsidian-gpt,28,11,92,12
+12,AI Assistant,By Quentin Grail,1086,AI Assistant plugin for Obsidian.,https://github.com/qgrail/obsidian-ai-assistant,29,18,92,4
+13,Semantic Search,By bbawj,608,Semantic search for files using OpenAI's text embeddings.,https://github.com/bbawj/obsidian-semantic-search,20,30,74,-1
+14,Simple Note Review,By dartungar,3573,"Simple, customizable plugin for easy note review, resurfacing  & repetition.",https://github.com/dartungar/obsidian-simple-note-review,36,30,359,0
+15,Text Generator,By Noureddine Haouari,100570,Text generator is a handy plugin that helps you generate text content using GPT-3 (OpenAI).,https://github.com/nhaouari/obsidian-textgenerator-plugin,874,30,468,0
+16,Personal Assistant,By edony,698,"Streamline workflows within Obsidian, managing memos and plugins with just one command.",https://github.com/edonyzpc/personal-assistant,16,30,358,5
+17,AI Mentor,By clementpoiret,428,"Meet your open source AI mentor in Obsidian. Ask questions, get answers, and learn new things.",https://github.com/clementpoiret/ai-mentor,10,24,76,11
+18,GPT-LiteInquirer,By ittuann,497,"Experience OpenAI ChatGPT assistance directly within Obsidian, drafting content without interrupting your creative flow.",https://github.com/ittuann/obsidian-gpt-liteinquirer-plugin,9,21,71,11
+19,text2anki-openai,By Mani Batra,182,This is an obsidian plugin that uses OpenAI to generate flashcards from text and add them to Anki.,https://github.com/manibatra/obsidian-text2anki-openai,3,13,81,11
+20,Crossbow,By shoedler,898,Find backlinks in your notes,https://github.com/shoedler/crossbow,38,30,245,0
+21,Links,By MiiKey,1291,Manipulate links,https://github.com/mii-key/obsidian-links,25,30,63,5
+22,Smart Rename,By mnaoumov,169,Renames notes keeping previous title in existing links,https://github.com/mnaoumov/obsidian-smart-rename,11,22,82,27
+23,Link Range,By Ryan Mellmer,555,This Obsidian plugin brings ranged wiki-link support to Obsidian.,https://github.com/rmellmer/obsidian-link-range,13,17,101,15
+24,Pending notes,By Ulises Santana,1517,Search links without notes in your vault.,https://github.com/ulisesantana/obsidian-pending-notes,21,30,176,30
+25,Obsidian42 - Text Transporter,By TfTHacker,7442,Advanced text tools for working with text in your vault.,https://github.com/TfTHacker/obsidian42-text-transporter,147,30,652,4
+26,Quick snippets and navigation,By @aciq,1195,"Keyboard navigation up/down for headings
+- Configurable default code block and callout
+- Copy code block via keyboard shortcut.",https://github.com/ieviev/obsidian-keyboard-shortcuts,13,21,311,21
+27,Templater,By SilentVoid,525926,Create and use templates.,https://github.com/SilentVoid13/Templater,1915,30,948,-1
+28,File Diff,By Till Friebe,526,View the differences between two files with merge options.,https://github.com/friebetill/obsidian-file-diff,37,30,135,18
+29,Aosr,By linanwx,2420,Another Obsidian spaced repetition. It uses flashcards to help review and remember knowledge.,https://github.com/linanwx/aosr,22,30,306,1
+30,Incremental Writing,By Jamesb | Experimental Learning,5799,Incrementally review notes and blocks over time.,https://github.com/bjsi/incremental-writing,145,30,811,8
+31,Spaced Repetition,By Stephen Mwangi,99281,Fight the forgetting curve by reviewing flashcards & entire notes.,https://github.com/st3v3nmw/obsidian-spaced-repetition,900,30,861,2
+32,Inbox,By Zachatoo,506,"Show in app notification on startup if there is data to process in the ""inbox"" note.",https://github.com/Zachatoo/obsidian-inbox,18,30,170,31
+33,Reminder,By uphy,74735,Manage Markdown TODOs with reminder.,https://github.com/uphy/obsidian-reminder,255,30,675,5
+34,Repeat,By Andre Perunicic,2118,Review notes using periodic or spaced repetition.,https://github.com/prncc/obsidian-repeat-plugin,29,30,286,-1
+35,Review,By ryanjamurphy,37337,"Add a link to the current note to a daily note on a future date (or a past date, you time traveller).",https://github.com/ryanjamurphy/review-obsidian,102,30,947,10
+36,Tracker,By pyrochlore,62286,Tracks occurrences and numbers in your notes.,https://github.com/pyrochlore/obsidian-tracker,810,30,839,0
+37,Mood Tracker,By dartungar,183,Track your moods & emotions easily. Visualize tracked history and browse the past entries.,https://github.com/dartungar/obsidian-mood-tracker,18,28,57,-1
+38,Rewarder,By Gustav Gnosspelius,1448,"Gives you rewards for completing tasks/todos, highly configurable.",https://github.com/Gnopps/obsidian-rewarder,25,30,447,39
+39,Argument Map with Argdown,By amdecker,2926,Allows you to write argdown code blocks and view the maps in Preview.,https://github.com/amdecker/obsidian-argdown-plugin,53,30,789,24
+40,Enhancing Mindmap,By Mark,91957,This is a enhancing mindmap plugin for Obsidian. You can edit mindmap on Markdown.,https://github.com/MarkMindCkm/obsidian-enhancing-mindmap,417,30,713,0
+41,Mind Map,By James Lynch,288246,Displays Markdown notes as mind maps using Markmap.,https://github.com/lynchjames/obsidian-mind-map,810,30,916,1
+42,Obsidian Graphviz,By Feng Peng,3988,Render Graphviz diagrams.,https://github.com/QAMichaelPeng/obsidian-graphviz,48,22,562,9
+43,PlantUML,By Johannes Theiner,36721,Generate PlantUML diagrams.,https://github.com/joethei/obsidian-plantuml,230,30,812,0
+44,Mermaid Tools,By dartungar,15563,Improved Mermaid.js experience for Obsidian: visual toolbar with common elements & more.,https://github.com/dartungar/obsidian-mermaid,80,30,234,2
+45,Mindmap Nextgen,By VeroCloud Pty Ltd (original by James Lynch),14861,Preview notes as Markmap mind maps.,https://github.com/verocloud/obsidian-mindmap-nextgen,67,30,211,5
+46,Shell commands,By Jarkko Linnanvirta,20527,"Define system commands that you want to execute via command palette, hotkeys, URI links or automated events. E.g. open external applications or perform automated file modifications.",https://github.com/Taitava/obsidian-shellcommands,206,30,658,4
+47,Code Emitter,By YISH,3095,"Allows code blocks to be executed interactively in a sandbox like Jupyter notebooks. Supported language Rust, Kotlin, Python, JavaScript, TypeScript, etc.",https://github.com/mokeyish/obsidian-code-emitter,89,24,315,0
+48,Meld Build,By meld-cp,270,"Write and execute (sandboxed) JavaScript to render templates, query DataView and create dynamic notes.",https://github.com/meld-cp/obsidian-build,12,30,159,15
+49,CustomJS,By Sam Lewis,9240,Reuse custom JavaScript across desktop and mobile.,https://github.com/saml-dev/obsidian-custom-js,177,30,666,9
+50,Execute Code,By twibiral,25520,Execute code snippets within a note.,https://github.com/twibiral/obsidian-execute-code,547,30,450,1
+51,Jupyter,By tillahoffmann,18701,Run Python code in Obsidian using Jupyter.,https://github.com/tillahoffmann/obsidian-jupyter,395,30,734,2
+52,Actions URI,By Carlo Zottmann,4726,"Adds additional `x-callback-url` endpoints to the app for common actions — it's a clean, super-charged addition to Obsidian URI.",https://github.com/czottmann/obsidian-actions-uri,54,30,263,2
+53,Cron,By Callum Loh,277,Simple CRON / scheduler plugin to regularly run user scripts or Obsidian commands.,https://github.com/cdloh/obsidian-cron,21,19,97,25
+54,Script Launcher,By Alessandro Ruggiero,3544,Launch scripts from the Obsidian app. You can add scripts shortcuts on your bottom bar and launch them with just one click!,https://github.com/AlessandroRuggiero/script-launcher,14,27,301,194
+55,Dynamic Highlights,By nothingislost,9773,"Dynamically highlight text based on cursor selection or search query with full regex, mobile, and live preview support",https://github.com/nothingislost/obsidian-dynamic-highlights,88,30,528,3
+56,Highlightr,By Chetachi,122806,A minimal and aesthetically pleasing highlighting menu that makes color-coded highlighting much easier with a configurable assortment of highlight colors.,https://github.com/chetachiezikeuzor/Highlightr-Plugin,407,30,713,4
+57,Colored Text,By Erinc Ayaz,1913,Color the selected texts.,https://github.com/erincayaz/obsidian-colored-text,16,26,47,5
+58,Super Simple Time Tracker,By Ellpeck,5632,Multi-purpose time trackers for your notes!,https://github.com/Ellpeck/ObsidianSimpleTimeTracker,65,30,256,8
+59,Quick LaTeX for Obsidian,By joeyuping,62804,A simple plugin to simplify and speed up LaTeX math typing.,https://github.com/joeyuping/quick_latex_obsidian,198,30,651,2
+60,Custom State for Task List,By Okami Wong,351,Add custom states to task list items.,https://github.com/OkamiWong/obsidian-custom-state-for-task-list,12,27,42,9
+61,Open Plugin Settings,By Mara-Li,100,Create a command to open a specified plugin settings.,https://github.com/lisandra-dev/open-plugin-settings-commands,4,30,82,7
+62,Ultimate Todoist Sync,By HeroBlackInk,574,This is the best Todoist task synchronization plugin for Obsidian so far.,https://github.com/HeroBlackInk/ultimate-todoist-sync-for-obsidian,41,30,74,0
+63,Rapid Notes,By valteriomon,1124,Create and place notes quickly in specific folders based on predefined prefixes.,https://github.com/valteriomon/obsidian-rapid-notes,35,30,221,4
+64,Bellboy,By Shaked Lokits,349,Opinionated file structure manager.,https://github.com/shakedlokits/obsidian-bellboy,17,30,402,135
+65,Aggregator,By SErAphLi,601,"Helps you gather information from files, and make a summary in the file.",https://github.com/Seraphli/obsidian-aggregator,21,12,200,21
+66,Dynamic Timetable,By L7Cy,537,Calculate the estimated time of completion from the estimated time of the task and dynamically create a timetable.,https://github.com/L7Cy/obsidian-dynamic-timetable,10,30,90,7
+67,Prioritize,By EloiMusk,261,Prioritize your tasks and notes in Obsidian.,https://github.com/EloiMusk/obsidian-prio-plugin,3,14,94,64
+68,Open files with commands,By Lost Paul,623,Create commands that only open one file at the time and that can be used with the commander plugin.,https://github.com/LostPaul/ob-open-files-with-commands,9,30,117,32
